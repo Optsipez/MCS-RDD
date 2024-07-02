@@ -38,4 +38,4 @@ This project involves an Arduino Uno, an ultrasonic sensor (HC-SR04), an I2C LCD
    - SDA to Arduino A4
    - SCL to Arduino A5
 ## Demo
-[![Watch the video]()](https://youtu.be/pjLezZWXZpc?si=BT92OjRr6tFw1MwS)
+[![Watch the video](https://img.youtube.com/vi/pjLezZWXZpc/hqdefault.jpg)](https://youtu.be/pjLezZWXZpc?si=BT92OjRr6tFw1MwS)
