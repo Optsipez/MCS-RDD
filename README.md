@@ -40,3 +40,5 @@ This project involves an Arduino Uno, an ultrasonic sensor (HC-SR04), an I2C LCD
 ## Demo
 ## Watch The Video Below
 [![Watch the video](https://img.youtube.com/vi/pjLezZWXZpc/hqdefault.jpg)](https://youtu.be/pjLezZWXZpc?si=BT92OjRr6tFw1MwS)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pjLezZWXZpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
