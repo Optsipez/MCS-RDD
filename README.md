@@ -43,7 +43,7 @@ This project involves an Arduino Uno, an ultrasonic sensor (HC-SR04), an I2C LCD
 
 <div style="position: relative; width: max-content;">
   <a href="https://youtu.be/pjLezZWXZpc" target="_blank">
-    <img src="https://img.youtube.com/vi/pjLezZWXZpc/maxresdefault.jpg" alt="Watch the video" style="display: block;">
-    <img src="https://icons8.com/icon/398/play" alt="Play button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <img src="https://img.youtube.com/vi/pjLezZWXZpc/hqdefault.jpg" alt="Watch the video" style="display: block;">
+    <img src="https://img.icons8.com/?size=100&id=398&format=png&color=000000" alt="Play button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
   </a>
 </div>
