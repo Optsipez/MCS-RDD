@@ -2,16 +2,8 @@
 All the Activities done during the MCS 7-week  Robotics Development and Design Program
 
 # Branch Links
-<p align="center">
-  <a href="https://github.com/Optsipez/MCS-RDD.git">
-    <img src="https://github.com/Optsipez/MCS-RDD/blob/Week-2/RDD.jpeg" alt="Week-1" title="Check out the repository" style="width: 300px; border: 2px solid #000; border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Optsipez/MCS-RDD/tree/Week-2">
-    <img src="https://github.com/Optsipez/MCS-RDD/blob/Week-2/RDD.jpeg" alt="Week-1" title="Check out the repository" style="width: 300px; border: 2px solid #000; border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"/>
-  </a>
-</p>
+<a href="https://github.com/Optsipez/MCS-RDD.git" style="color: white; text-decoration: none; font-weight: bold; background-color: #0366d6; padding: 10px 15px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3);" onmouseover="this.style.backgroundColor='#ff6347'" onmouseout="this.style.backgroundColor='#0366d6'">Check out the repository</a>
+
 
 # Arduino DC Motor Control with Ultrasonic Sensor
 
