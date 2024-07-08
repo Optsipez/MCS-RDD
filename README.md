@@ -1,5 +1,8 @@
 # MCS-RDD
 All the Activities done during the MCS 7-week  Robotics Development and Design Program
+
+# Branch Links
+
 # Arduino DC Motor Control with Ultrasonic Sensor
 
 This project controls two DC motors (one with an encoder and one ordinary DC motor) based on the distance detected by an ultrasonic sensor. The project is implemented on an Arduino board using Tinkercad.
@@ -38,4 +41,5 @@ The ultrasonic sensor measures the distance of an object and controls the motors
 - If the distance is greater than 50 cm:
   - All motors are stopped.
 
-![alt text](Week-2/Ultrasonic-DC-Motor.png)
+![Wiring Diagram](Week-2/Ultrasonic-DC-Motor.png)
+              *Wiring Diagram*
