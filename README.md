@@ -38,4 +38,4 @@ The ultrasonic sensor measures the distance of an object and controls the motors
 - If the distance is greater than 50 cm:
   - All motors are stopped.
 
-![alt text](http://url/to/img.png)
+![alt text](Week-2/Ultrasonic-DC-Motor.png)
