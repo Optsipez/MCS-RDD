@@ -44,4 +44,7 @@ The ultrasonic sensor measures the distance of an object and controls the motors
   - All motors are stopped.
 
 ![Wiring Diagram](Week-2/Ultrasonic-DC-Motor.png)
-              *Wiring Diagram*
+<p align="center">
+  *Wiring Diagram*
+</p>
+
