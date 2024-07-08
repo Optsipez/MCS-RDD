@@ -2,7 +2,8 @@
 All the Activities done during the MCS 7-week  Robotics Development and Design Program
 
 # Branch Links
-
+[![Week-1](RDD.jpeg)](https://github.com/Optsipez/MCS-RDD.git)
+[![Week-2](RDD.jpeg)](https://github.com/Optsipez/MCS-RDD/tree/Week-2)
 # Arduino DC Motor Control with Ultrasonic Sensor
 
 This project controls two DC motors (one with an encoder and one ordinary DC motor) based on the distance detected by an ultrasonic sensor. The project is implemented on an Arduino board using Tinkercad.
