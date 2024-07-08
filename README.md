@@ -1,43 +1,41 @@
 # MCS-RDD
 All the Activities done during the MCS 7-week  Robotics Development and Design Program
-# Arduino Proximity Sensor Project
+# Arduino DC Motor Control with Ultrasonic Sensor
 
-## Overview
-This project involves an Arduino Uno, an ultrasonic sensor (HC-SR04), an I2C LCD display, a servo motor, and three LEDs. The system measures the distance of an object from the ultrasonic sensor, controls the servo motor based on the proximity, and uses LEDs to indicate the distance range.
+This project controls two DC motors (one with an encoder and one ordinary DC motor) based on the distance detected by an ultrasonic sensor. The project is implemented on an Arduino board using Tinkercad.
 
-## Components
-- Arduino Uno
+## Components Used
+
+- Arduino Board
+- DC Motor with Encoder
+- Ordinary DC Motor
 - Ultrasonic Sensor (HC-SR04)
-- I2C LCD Display
-- Servo Motor
-- 3 LEDs
-- Resistors (appropriate values for LEDs)
+- Connecting Wires
 - Breadboard
-- Jumper Wires
 
-## Circuit Diagram
-### Wiring:
-1. **Ultrasonic Sensor (HC-SR04):**
-   - VCC to 5V on the breadboard (shared with other components)
-   - GND to GND on the breadboard (shared with other components)
-   - Trig to Arduino pin 9
-   - Echo to Arduino pin 10
+## Pin Connections
 
-2. **Servo Motor:**
-   - VCC to 5V on the breadboard (shared with other components)
-   - GND to GND on the breadboard (shared with other components)
-   - Signal to Arduino pin 6
+### Motors
+- Encoder Motor:
+  - `motorA` connected to pin 5
+  - `motorB` connected to pin 6
+- Ordinary DC Motor:
+  - `OLDCp` connected to pin 8
+  - `OLDCm` connected to pin 9
 
-3. **LEDs (3 LEDs):**
-   - Anode of each LED to Arduino pins 3, 4, and 5 through resistors
-   - Cathode of each LED to GND on the breadboard (shared with other components)
+### Ultrasonic Sensor
+- `echoPin` connected to pin 10
+- `trigPin` connected to pin 11
 
-4. **LCD Display with I2C:**
-   - VCC to 5V on the breadboard (shared with other components)
-   - GND to GND on the breadboard (shared with other components)
-   - SDA to Arduino A4
-   - SCL to Arduino A5
-## Demo
-## Watch The Video Below
-[![Watch the video](https://img.youtube.com/vi/pjLezZWXZpc/hqdefault.jpg)](https://youtu.be/pjLezZWXZpc?si=BT92OjRr6tFw1MwS)
+## Functionality
 
+The ultrasonic sensor measures the distance of an object and controls the motors as follows:
+
+- If the distance is less than 20 cm:
+  - The encoder motor runs clockwise for 700 ms and then counterclockwise for 700 ms.
+- If the distance is between 20 cm and 50 cm:
+  - The ordinary DC motor runs clockwise for 700 ms and then counterclockwise for 700 ms.
+- If the distance is greater than 50 cm:
+  - All motors are stopped.
+
+![alt text](http://url/to/img.png)
